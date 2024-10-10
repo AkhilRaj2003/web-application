@@ -1,0 +1,81 @@
+/* SearchPage.css */
+.search-pagel {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.favorites-buttonl {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorites-buttonl:hover {
+  background-color: #0056b3;
+}
+
+.search-inputl {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-listl {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-cardl {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-cardl:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-linkl {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-imagel {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.product-titlel {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-pricel {
+  font-size: 16px;
+  color: #007bff;
+  font-weight: bold;
+}
+
